@@ -4,15 +4,7 @@ import SearchIcon from './search.svg'
 import MovieCard from './MovieCard'
 //72ce0909
 const API_KEY = 'http://www.omdbapi.com?apikey=72ce0909'
-const movie1 = {
 
-  "Title": "Spider-Man: No Way Home",
-  "Year": "2021",
-  "imdbID": "tt10872600",
-  "Type": "movie",
-  "Poster": "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_SX300.jpg"
-
-}
 const App = () => {
   const [movies, setMovies] = useState([]);
   const [searchTerm,setSearchTerm]=useState([]);
