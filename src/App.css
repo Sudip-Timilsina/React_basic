@@ -14,12 +14,11 @@
 
 body {
   font-family: var(--font-roboto);
-  background-color: #212426;
+  background:linear-gradient(#C33764,#1D2671);
 }
 
 .app {
   padding: 4rem;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,8 +30,8 @@ h1 {
   letter-spacing: 0.9px;
   background: linear-gradient(
     90deg,
-    rgba(249, 211, 180, 1) 0%,
-    rgba(249, 211, 180, 0) 100%
+    rgb(234, 234, 234) 0%,
+    rgba(252, 222, 222, 0.062) 100%
   );
   background-clip: text;
   -webkit-background-clip: text;
