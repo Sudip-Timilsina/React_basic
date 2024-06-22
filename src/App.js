@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import SearchIcon from './search.svg'
 import MovieCard from './MovieCard'
-//72ce0909
+
 const API_KEY = 'http://www.omdbapi.com?apikey=72ce0909'
 
 const App = () => {
@@ -37,7 +37,7 @@ const App = () => {
           ))}
         </div>) : (
           <div className='empty'>
-            <h2>Mo movies Found</h2>
+            <h2>No movies Found</h2>
 
           </div>
         )
